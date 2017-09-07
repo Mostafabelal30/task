@@ -1,0 +1,34 @@
+{
+  "name": "androidTest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13",
+    "react": "16.0.0-alpha.12",
+    "react-moment": "^0.6.0",
+    "react-native": "0.46.4",
+    "react-native-datepicker-dialog": "0.0.6",
+    "react-native-fbsdk": "^0.6.1",
+    "react-native-image-crop-picker": "^0.14.4",
+    "react-native-indicator": "^0.6.7",
+    "react-native-maps": "^0.15.3",
+    "react-native-popup": "^0.6.1",
+    "react-native-side-menu": "^1.0.2",
+    "react-native-video": "^1.2.0",
+    "react-navigation": "^1.0.0-beta.11"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.1.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
